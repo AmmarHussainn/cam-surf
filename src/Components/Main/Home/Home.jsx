@@ -4,6 +4,7 @@ import HomeContentBanner from "../../Inner/HomeContentBanner";
 import { camchat, homefirstbannerimg, mobileappbanner } from "../../../assets";
 import LeftImgRightContent from "../../Inner/LeftImgRightContent";
 import HomeSubContent from "../../Inner/HomeSubContent";
+import WeAreDifferent from "../../Inner/WeAreDifferent";
 
 const Home = () => {
   return (
@@ -40,6 +41,8 @@ const Home = () => {
           content2="We’ve designed the app to offer all the same great features you find on our web-based platform. Enjoy lightning fast connections, the ability to filter by location and language and other features that make Camsurf one of the fastest growing video chat services online. Keep an eye out for our Apple Store app which is in development."
           ButtonsLabel={true}
         />
+
+       
     </>
   );
 };
