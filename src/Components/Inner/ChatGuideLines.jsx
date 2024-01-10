@@ -71,8 +71,8 @@ const ChatGuideLines = () => {
 
       <div className="w-full mt-5 grid grid-cols-1 place-content-between place-items-center gap-3 md:grid-cols-2">
         {guidelinesData.map((guideline, index) => (
-          <div key={index} className="w-full h-[280px] border p-2 border-[#FF5887]">
-            <div className="flex items-center justify-start w-full px-2 gap-2">
+          <div key={index} className="w-full max-w-[700px] h-[280px] border p-2 border-[#FF5887]">
+            <div className="flex items-center border justify-start w-full px-2 gap-2">
               
               <SvgIcons.RoundedArrow  />
               <p className="font-semibold text-base">{guideline.title}</p>

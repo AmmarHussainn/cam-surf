@@ -11,8 +11,16 @@ import iconinsta from "./Images/iconinsta.png";
 import iconpin from "./Images/iconpin.png";
 import icontwitter from "./Images/icontwitter.png"
 import aboutvideosection from "./Images/aboutvideosection.png"
-import diffbanner from "./Images/diffbanner.png"
+import diffbanner from "./Images/diffbanner.png";
+import fireicon from "./Images/fireicon.png";
+import storiesfirstbanner from "./Images/storiesfirstbanner.png"
+import randomvideos from "./Images/randomvideos.png"
+import chatwith from "./Images/chatwith.png"
 export {
+    chatwith,
+    randomvideos,
+    storiesfirstbanner,
+    fireicon,
     diffbanner,
     aboutvideosection,
     iconfb,

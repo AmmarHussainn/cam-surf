@@ -7,6 +7,8 @@ import Footer from '../Inner/Footer';
 import AboutUsPage from '../Main/AboutUsPage/AboutUsPage';
 import Home from '../Main/Home/Home';
 import GuideLines from "../Main/GuideLines/GuideLines.jsx"
+import FaqsPage from '../Main/FaqsPage/FaqsPage.jsx';
+import StoriesPage from '../Main/StoriesPage/StoriesPage.jsx';
 
 const Router = () => {
   return (
@@ -16,6 +18,8 @@ const Router = () => {
         <Route path="/" element={<Home/>} />
         <Route path="/aboutus" element={<AboutUsPage/>} />
         <Route path="/guidelines" element={<GuideLines/>} />
+        <Route path="/faqsPage" element={<FaqsPage/>} />
+        <Route path="/storiespage" element={<StoriesPage/>} />
       
       </Routes>
       <Footer/>

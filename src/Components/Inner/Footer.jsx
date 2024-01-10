@@ -13,11 +13,12 @@ const Footer = () => {
         width={120}
         height={71}
       />
-      <p className="text-[15px] leading-7">
+      <p className="text-[15px] ">
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industry's standard dummy text
         ever since.
       </p>
+      <h5 className='font-bold text-xl text-[#FF5887]'>Follow Us Now</h5>
       <div className="flex mt-3 justify-start  gap-2 items-center">
           <img className="w-[50px]" src={iconfb} alt="" />
           <img className="w-[50px]" src={iconinsta} alt="" />
@@ -27,7 +28,7 @@ const Footer = () => {
     </ul>
     <ul className="max-w-[250px] mt-8 w-full ">
       <h1 className=" text-2xl text-primaryColor-0 font-bold pb-1 mb-6  ">
-      Services
+      Quick Links
       </h1>
       <li className="pt-2 ">
         <a
@@ -42,7 +43,7 @@ const Footer = () => {
           className="text-white flex items-center font-light hover:text-btnBlue-0 duration-100 text-lg cursor-pointer leading-6"
           href="/services"
         >
-          <p className="font-medium text-base ">Services</p>
+          <p className="font-medium text-base ">About us</p>
         </a>
       </li>
       <li className="pt-2 ">
@@ -50,7 +51,7 @@ const Footer = () => {
           className="text-white flex items-center font-light hover:text-btnBlue-0 duration-100 text-lg cursor-pointer leading-6"
           href="/whoWeServe"
         >
-          <p className="font-medium text-base ">Who we Serve</p>
+          <p className="font-medium text-base ">Faq</p>
         </a>
       </li>
       <li className="pt-2 ">
@@ -58,7 +59,7 @@ const Footer = () => {
           className="text-white flex items-center font-light hover:text-btnBlue-0 duration-100 text-lg cursor-pointer leading-6"
           href="/resourceOverview"
         >
-          <p className="font-medium text-base ">Resources</p>
+          <p className="font-medium text-base ">Press</p>
         </a>
       </li>
       <li className="pt-2 ">
@@ -66,7 +67,7 @@ const Footer = () => {
           className="text-white flex items-center font-light hover:text-btnBlue-0 duration-100 text-lg cursor-pointer leading-6"
           href="/contactUs"
         >
-          <p className="font-medium text-base ">Contact us</p>
+          <p className="font-medium text-base ">Stories</p>
         </a>
       </li>
     </ul>
@@ -76,11 +77,11 @@ const Footer = () => {
       Subscribe to our newsletter to get latest updates
       </h1>
       
-      <input type="text" className="w-full text-white rounded-lg border border-gray bg-[#252831] px-4 py-1 mb-4" placeholder="First Name" />
-      <input type="text" className="w-full text-white rounded-lg border border-gray bg-[#252831] px-4 py-1 " placeholder="Last Name" />
+      <input type="text" className="w-full boder border-[#FF5887] text-white rounded-lg border border-gray bg-[#252831] px-4 py-1 mb-4" placeholder="First Name" />
+      <input type="text" className="w-full boder border-[#FF5887] text-white rounded-lg border border-gray bg-[#252831] px-4 py-1 " placeholder="Last Name" />
   
 
-     <button type="submit" className="text-center bg-[#0068B4] w-full mt-5 py-1 rounded-lg">Subscribe</button>
+     <button type="submit" className="text-center bg-[#FF5887] w-full mt-5 py-1 rounded-lg">Subscribe</button>
     </ul>
 
    
