@@ -11,11 +11,11 @@ const StoriesBanner = ({
   smallheading,
   buttonBackgroundColor,
   leftside,
-  rightside
+  rightside,
+  ultasks,
 }) => {
   return (
     <>
-      
       {leftside && (
         <div className="container px-4 lg:px-9 pt-10 py-5  text-[#727272]  flex flex-wrap lg:flex-nowrap justify-center items-center lg:justify-around  mx-auto max-w-[1300px] w-full">
           <div className="max-w-[600px] w-full flex flex-col gap-2 justify-start text-[#727272] ">
@@ -57,7 +57,21 @@ const StoriesBanner = ({
             </p>
             <p className="font-poppins text-[#424242]  ">{content1}</p>
             <p className="font-poppins py-2 text-[#424242]  ">{content2}</p>
-
+            {ultasks && (
+              <ul className="px-5 list-disc text-[#424242] text-sm">
+                <li>
+                  Camsurf developed a system that uses artificial intelligence
+                  combined with community reporting to help us identify users
+                  that violate our terms of use. This allows you to meet more
+                  people who actually want to have conversations.
+                </li>
+                <li>
+                  We are one of the only random video chat sites online to have
+                  a fully functional mobile phone app in Google Play that is
+                  available to use on all Android devices.
+                </li>
+              </ul>
+            )}
             {ButtonsLabel && (
               <button
                 className="rounded-3xl items-center justify-center gap-3 flex overflow-hidden text-sm font-bold py-2 w-[50%] text-white font-poppins"

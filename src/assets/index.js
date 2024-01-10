@@ -16,7 +16,15 @@ import fireicon from "./Images/fireicon.png";
 import storiesfirstbanner from "./Images/storiesfirstbanner.png"
 import randomvideos from "./Images/randomvideos.png"
 import chatwith from "./Images/chatwith.png"
+import overviewbanner from "./Images/overviewbanner.png"
+import randomvideo from "./Images/randomvideo.png"
+import audiance from "./Images/audiance.png"
+import rapidgrowth from "./Images/rapidgrowth.png"
 export {
+    rapidgrowth,
+    audiance,
+    randomvideo,
+    overviewbanner,
     chatwith,
     randomvideos,
     storiesfirstbanner,

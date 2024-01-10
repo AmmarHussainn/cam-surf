@@ -9,6 +9,7 @@ import Home from '../Main/Home/Home';
 import GuideLines from "../Main/GuideLines/GuideLines.jsx"
 import FaqsPage from '../Main/FaqsPage/FaqsPage.jsx';
 import StoriesPage from '../Main/StoriesPage/StoriesPage.jsx';
+import PressPage from '../Main/PressPage/PressPage.jsx';
 
 const Router = () => {
   return (
@@ -20,6 +21,7 @@ const Router = () => {
         <Route path="/guidelines" element={<GuideLines/>} />
         <Route path="/faqsPage" element={<FaqsPage/>} />
         <Route path="/storiespage" element={<StoriesPage/>} />
+        <Route path="/presspage" element={<PressPage/>} />
       
       </Routes>
       <Footer/>
