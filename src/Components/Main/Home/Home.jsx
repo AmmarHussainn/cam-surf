@@ -34,7 +34,7 @@ const Home = () => {
         />
       </div>
       <HomeContentBanner
-          heading="Mobile App on the Go"
+          heading="Mobile App on the "
           pinktext="Go"
           image={mobileappbanner}
           content1="As the perfect complement to our web browser-based chat platform, we are delighted to announce the launch of the Android Camsurf app. Now you can make new friends and meet new people wherever you are. The app is 100% free to download and designed to use minimal storage space on your device."

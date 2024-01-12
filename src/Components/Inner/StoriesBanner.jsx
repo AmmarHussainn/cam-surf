@@ -17,7 +17,7 @@ const StoriesBanner = ({
   return (
     <>
       {leftside && (
-        <div className="container px-4 lg:px-9 pt-10 py-5  text-[#727272]  flex flex-wrap lg:flex-nowrap justify-center items-center lg:justify-around  mx-auto max-w-[1300px] w-full">
+        <div className="container px-4 lg:!gap-4 lg:px-9 pt-10 py-5  text-[#727272]  flex flex-wrap lg:flex-nowrap justify-center items-center lg:justify-around  mx-auto max-w-[1300px] w-full">
           <div className="max-w-[600px] w-full flex flex-col gap-2 justify-start text-[#727272] ">
             <p className=" md:text-4xl text-[#353535] text-3xl font-bold font-poppins">
               {heading} <span className="text-[#FF5887]">{pinktext}</span>

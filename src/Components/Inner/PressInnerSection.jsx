@@ -7,6 +7,7 @@ const PressInnerSection = () => {
     <div>
 
 <div className="container px-4 mx-auto">
+  
         <div className="text-center py-10 max-w-[700px] mx-auto">
           <h4 className="text-2xl font-bold pb-7">Contacting Our Team</h4>
           <p>

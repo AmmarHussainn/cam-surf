@@ -20,7 +20,13 @@ import overviewbanner from "./Images/overviewbanner.png"
 import randomvideo from "./Images/randomvideo.png"
 import audiance from "./Images/audiance.png"
 import rapidgrowth from "./Images/rapidgrowth.png"
+import testimonialstars from "./Images/testimonialstars.png"
+import jamesredford from "./Images/jamesredford.png"
+import quotes from "./Images/quotes.png"
 export {
+    quotes,
+    jamesredford,
+    testimonialstars,
     rapidgrowth,
     audiance,
     randomvideo,

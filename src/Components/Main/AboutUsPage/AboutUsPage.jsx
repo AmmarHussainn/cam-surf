@@ -3,6 +3,7 @@ import Banner from '../../Inner/Banner'
 import HomeContentBanner from '../../Inner/HomeContentBanner'
 import { aboutvideosection } from '../../../assets'
 import WeAreDifferent from '../../Inner/WeAreDifferent'
+import TestomonialsBanner from '../../Inner/TestomonialsBanner'
 
 const AboutUsPage = () => {
   return (
@@ -21,6 +22,8 @@ const AboutUsPage = () => {
           <div className='bg-[#212121]  w-full'>
           <WeAreDifferent/>
           </div>
+
+            <TestomonialsBanner />
     </div>
   )
 }
