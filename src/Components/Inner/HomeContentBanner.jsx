@@ -6,7 +6,7 @@ const HomeContentBanner = ({ ButtonsLabel, heading , content1 ,content2 ,content
   return (
     <div className="container px-4 lg:px-9 pt-10 py-5  text-[#727272]  flex flex-wrap lg:flex-nowrap justify-center items-center lg:justify-around  mx-auto max-w-[1300px] w-full">
     <div className="max-w-[600px] w-full flex flex-col gap-6 justify-start text-[#727272] ">
-      <p className=" md:text-4xl text-[#0564B9] text-3xl font-bold font-poppins">
+      <p className=" md:text-4xl  text-[#424242] text-3xl font-bold font-poppins">
        {heading} <span className='text-[#FF5887]'>{pinktext}</span>
       </p>
         <p className="font-poppins text-[#424242] font-bold text-base ">{smallheading}</p>

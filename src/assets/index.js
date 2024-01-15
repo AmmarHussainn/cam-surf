@@ -27,9 +27,15 @@ import blacklinkedicon from "./Images/blacklinkedicon.png"
 import blackinstaicon from "./Images/blackinstaicon.png"
 import blackfbicon from "./Images/blackfbicon.png"
 import blacktwittericon from "./Images/blacktwittericon.png"
-
+import crownicon from "./Images/crownicon.png"
+import settingicon from "./Images/settingicon.png"
+import smileicon from "./Images/smileicon.png"
+import bluearrowicon from "./Images/bluearrowicon.png"
 export {
-  
+    bluearrowicon,
+    smileicon,
+    settingicon,
+  crownicon,
     blacklinkedicon,
     blackfbicon,
     blackinstaicon,
