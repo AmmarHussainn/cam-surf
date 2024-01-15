@@ -3,9 +3,9 @@ import { diffbanner } from "../../assets";
 
 const WeAreDifferent = () => {
   return (
-    <div className="container px-4 lg:px-9   text-white flex flex-wrap lg:flex-nowrap justify-center items-center lg:justify-around  mx-auto max-w-[1300px] w-full">
-      <div className="max-w-[600px] w-full">
-        <img src={diffbanner} alt="mazenavigator" className="z-50  " />
+    <div className="container px-4 lg:px-9  lg:h-[380px]  text-white flex flex-wrap lg:flex-nowrap justify-center items-center lg:justify-around  mx-auto max-w-[1300px] w-full">
+      <div className="max-w-[300px] z-40  w-full">
+        <img src={diffbanner} alt="mazenavigator"  />
       </div>
       <div className="max-w-[600px] w-full flex flex-col px-5 gap-6 justify-start ">
         <h1 className="text-3xl text-[#0564B9] font-semibold pt-3">

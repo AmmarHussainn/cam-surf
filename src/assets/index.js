@@ -23,7 +23,17 @@ import rapidgrowth from "./Images/rapidgrowth.png"
 import testimonialstars from "./Images/testimonialstars.png"
 import jamesredford from "./Images/jamesredford.png"
 import quotes from "./Images/quotes.png"
+import blacklinkedicon from "./Images/blacklinkedicon.png"
+import blackinstaicon from "./Images/blackinstaicon.png"
+import blackfbicon from "./Images/blackfbicon.png"
+import blacktwittericon from "./Images/blacktwittericon.png"
+
 export {
+  
+    blacklinkedicon,
+    blackfbicon,
+    blackinstaicon,
+    blacktwittericon,
     quotes,
     jamesredford,
     testimonialstars,

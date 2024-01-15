@@ -5,12 +5,18 @@ import { camchat, homefirstbannerimg, mobileappbanner } from "../../../assets";
 import LeftImgRightContent from "../../Inner/LeftImgRightContent";
 import HomeSubContent from "../../Inner/HomeSubContent";
 import WeAreDifferent from "../../Inner/WeAreDifferent";
+import Navbar from "../../Inner/Navbar";
 
 const Home = () => {
   return (
     <>
-      <div className="bg-cover h-auto w-[100vs] bannerbgimg ">
+    <div className="bg-transparent">
+
+        <Navbar />
+    </div>
         <LeftContentRightImg />
+        <div className="bg-[#FFF4E8] py-10">
+
         <HomeContentBanner
           heading="Free Random Video Chat"
           pinktext="App!"
@@ -20,6 +26,7 @@ const Home = () => {
           content2="Our lightweight chat platform makes video chat easy without sacrificing great features. You’ll feel like a pro in seconds. Simply agree with our terms of use and privacy policy, allow access to your webcam and then click on the large ‘start’ button to be instantly connected to a new and interesting person. You can even filter connections by location or language."
           content3="Camsurf has thousands of users online at all times. If you want to meet someone new, simply click the ‘next’ button and you will be connected with a new stranger right away. It’s so simple to make hundreds of new friends, maybe you will even find that special someone."
         />
+       
       </div>
       <div className="bg-[#212121] w-full">
         <LeftImgRightContent />

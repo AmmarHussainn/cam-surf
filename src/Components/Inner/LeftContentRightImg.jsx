@@ -4,16 +4,13 @@ import SvgIcons from "../../assets/SvgIcons";
 
 const LeftContentRightImg = () => {
   return (
-    <div className="container px-4  lg:px-9 py-5  text-black  flex flex-wrap lg:flex-nowrap gap-7 justify-center items-center lg:justify-between  mx-auto max-w-[1300px] w-full">
-      <div className="max-w-[400px] w-full flex flex-col gap-6 justify-start text-black ">
+    <div className="  px-4   lg:px-0  bg-black    flex flex-wrap lg:flex-nowrap gap-7 justify-center items-center lg:justify-between  mx-auto  w-full">
+      <div className="lg:max-w-[50%] py-10 px-4 blackpage bg-cover w-full flex flex-col gap-6 justify-start text-white ">
         <div className="flex items-center gap-3">
-          <p className="font-raleway text-3xl text-[#FF5887] font-bold">
-            {" "}
-            Meet New People{" "}
-          </p>
+         
           {/* <img src={line} alt="line" className="w-20 h-1"/> */}
         </div>
-        <p className=" text-5xl md:text-3xl  font-bold font-poppins">
+        <p className=" text-xl md:text-3xl  font-bold font-poppins">
           9,851,548 joined Camsurf
         </p>
         <p className="font-poppins text-sm">
@@ -30,7 +27,7 @@ const LeftContentRightImg = () => {
           </button>
         </div>
 
-        <button className="rounded-3xl bg-black items-center justify-center gap-3    flex overflow-hidden text-sm font-bold py-2 w-full text-white font-poppins">
+        <button className="rounded-3xl bg-gradient-to-r from-[#161616] to-[#525252] items-center justify-center gap-3    flex overflow-hidden text-sm font-bold py-2 w-full text-white font-poppins">
         Unlock All Futures  <SvgIcons.Lock />
           </button>
 
@@ -46,8 +43,14 @@ const LeftContentRightImg = () => {
         </div>
       </div>
 
-      <div className="max-w-[600px] w-full">
-        <img src={happyman} alt="mazenavigator" />
+      <div className="lg:max-w-[50%] h-[100vh] flex items-end redbannerimg bg-cover w-full">
+      <div className="bg-[#EDEDED] w-full px-4 py-3 " >
+      <h3 className="underline font-semibold">Report Bugs and Issue</h3>
+
+      <div className="flex gap-4">
+       <p>9,851,548 joined Camsurf</p>
+      </div>
+      </div>
       </div>
     </div>
   );

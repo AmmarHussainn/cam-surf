@@ -4,10 +4,12 @@ import HomeContentBanner from '../../Inner/HomeContentBanner'
 import { aboutvideosection } from '../../../assets'
 import WeAreDifferent from '../../Inner/WeAreDifferent'
 import TestomonialsBanner from '../../Inner/TestomonialsBanner'
+import Navbar from '../../Inner/Navbar'
 
 const AboutUsPage = () => {
   return (
     <div>
+      <Navbar/>
       <Banner 
       innerBannerBg= "banner"
       heading="About us"

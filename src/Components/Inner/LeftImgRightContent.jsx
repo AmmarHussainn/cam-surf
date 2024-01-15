@@ -3,7 +3,7 @@ import { randomvideobanner } from "../../assets";
 
 const LeftImgRightContent = () => {
   return (
-    <div className="container px-4 lg:px-9   text-white flex flex-wrap lg:flex-nowrap justify-center items-center lg:justify-around  mx-auto max-w-[1300px] w-full">
+    <div className="container px-4 lg:px-9  lg:h-[380px]  py-5 text-white flex flex-wrap lg:flex-nowrap justify-center items-center lg:justify-around  mx-auto max-w-[1300px] w-full">
       <div className="max-w-[600px] w-full">
         <img src={randomvideobanner} alt="mazenavigator"    className="z-50 " />
       </div>
