@@ -37,11 +37,13 @@ const faqData = [
 const FaqsDescription = () => {
   return (
     <div className="container mx-auto px-4 max-w-[1200px] w-full">
-      <div className="max-w-[900px] mx-auto w-full ">
-        <img src={fireicon} alt="fireicon" className="mx-auto" />
-        <h2 className="text-2xl font-bold text-center">
-          Frequently asked questions
-        </h2>
+      <div className="max-w-[900px] mx-auto w-full  ">
+        <div className="mt-10">
+          <img src={fireicon} alt="fireicon" className="mx-auto " />
+          <h2 className="text-2xl font-bold text-center">
+            Frequently asked questions
+          </h2>
+        </div>
         <p className="text-center">Whats happening around the World.</p>
 
         <div className="container mx-auto px-4 py-10 max-w-[750px] w-full">
@@ -49,7 +51,7 @@ const FaqsDescription = () => {
             {faqData.map((faq, index) => (
               <details
                 key={index}
-                className="rounded-lg my-4 group p-6 [&_summary::-webkit-details-marker]:hidden !border !border-[#FF5887]"
+                className="rounded-lg my-4 group p-6 [&_summary::-webkit-details-marker]:hidden rounded-lg !border-2 !border-pink-500 !border-opacity-60"
                 open
               >
                 <summary className="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900">
@@ -58,7 +60,7 @@ const FaqsDescription = () => {
                   <span className="relative h-5 w-5 shrink-0">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      className="absolute inset-0 h-5 w-5 opacity-100 group-open:opacity-0"
+                      className="absolute inset-0 h-5 w-5 opacity-100 group-open:opacity-0 text-blue-500"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -73,7 +75,7 @@ const FaqsDescription = () => {
 
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      className="absolute inset-0 h-5 w-5 opacity-0 group-open:opacity-100"
+                      className="absolute inset-0 h-5 w-5 opacity-0 group-open:opacity-100 text-pink-500"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -98,7 +100,7 @@ const FaqsDescription = () => {
           <h2 className="font-bold text-3xl text-black">Common Issues</h2>
           <div className="divide-y my-10 mt-2 divide-gray-100   bg-white">
             <details
-              className="group rounded-lg p-6 [&_summary::-webkit-details-marker]:hidden !border !border-[#FF5887]"
+              className="group rounded-lg p-6 [&_summary::-webkit-details-marker]:hidden rounded-lg !border-2 !border-pink-500 !border-opacity-60"
               open
             >
               <summary className="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900">
@@ -109,7 +111,7 @@ const FaqsDescription = () => {
                 <span className="relative h-5 w-5 shrink-0">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="absolute inset-0 h-5 w-5 opacity-100 group-open:opacity-0"
+                    className="absolute inset-0 h-5 w-5 opacity-100 group-open:opacity-0 text-blue-500"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -124,7 +126,7 @@ const FaqsDescription = () => {
 
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="absolute inset-0 h-5 w-5 opacity-0 group-open:opacity-100"
+                    className="absolute inset-0 h-5 w-5 opacity-0 group-open:opacity-100 text-pink-500"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -152,7 +154,7 @@ const FaqsDescription = () => {
           <h2 className="font-bold text-3xl text-black">Webcam FAQs</h2>
           <div className="divide-y my-10 mt-2 divide-gray-100   bg-white">
             <details
-              className="group rounded-lg p-6 [&_summary::-webkit-details-marker]:hidden !border !border-[#FF5887]"
+              className="group rounded-lg p-6 [&_summary::-webkit-details-marker]:hidden rounded-lg !border-2 !border-pink-500 !border-opacity-60"
               open
             >
               <summary className="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900">
@@ -163,7 +165,7 @@ const FaqsDescription = () => {
                 <span className="relative h-5 w-5 shrink-0">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="absolute inset-0 h-5 w-5 opacity-100 group-open:opacity-0"
+                    className="absolute inset-0 h-5 w-5 opacity-100 group-open:opacity-0 text-blue-500"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -178,7 +180,7 @@ const FaqsDescription = () => {
 
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="absolute inset-0 h-5 w-5 opacity-0 group-open:opacity-100"
+                    className="absolute inset-0 h-5 w-5 opacity-0 group-open:opacity-100 text-pink-500"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -203,7 +205,7 @@ const FaqsDescription = () => {
             </details>
 
             <details
-              className="group rounded-lg my-4 p-6 [&_summary::-webkit-details-marker]:hidden !border !border-[#FF5887]"
+              className="group rounded-lg my-4 p-6 [&_summary::-webkit-details-marker]:hidden rounded-lg !border-2 !border-pink-500 !border-opacity-60"
               open
             >
               <summary className="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900">
@@ -214,7 +216,7 @@ const FaqsDescription = () => {
                 <span className="relative h-5 w-5 shrink-0">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="absolute inset-0 h-5 w-5 opacity-100 group-open:opacity-0"
+                    className="absolute inset-0 h-5 w-5 opacity-100 group-open:opacity-0 text-blue-500"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -229,7 +231,7 @@ const FaqsDescription = () => {
 
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="absolute inset-0 h-5 w-5 opacity-0 group-open:opacity-100"
+                    className="absolute inset-0 h-5 w-5 opacity-0 group-open:opacity-100 text-pink-500"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -265,7 +267,7 @@ const FaqsDescription = () => {
           </p>
           <div className="divide-y my-10 mt-2 divide-gray-100   bg-white">
             <details
-              className="group rounded-lg p-6 [&_summary::-webkit-details-marker]:hidden !border !border-[#FF5887]"
+              className="group rounded-lg p-6 [&_summary::-webkit-details-marker]:hidden rounded-lg !border-2 !border-pink-500 !border-opacity-60"
               open
             >
               <summary className="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900">
@@ -277,7 +279,7 @@ const FaqsDescription = () => {
                 <span className="relative h-5 w-5 shrink-0">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="absolute inset-0 h-5 w-5 opacity-100 group-open:opacity-0"
+                    className="absolute inset-0 h-5 w-5 opacity-100 group-open:opacity-0 text-blue-500"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -292,7 +294,7 @@ const FaqsDescription = () => {
 
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="absolute inset-0 h-5 w-5 opacity-0 group-open:opacity-100"
+                    className="absolute inset-0 h-5 w-5 opacity-0 group-open:opacity-100 text-pink-500"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -317,7 +319,7 @@ const FaqsDescription = () => {
             </details>
 
             <details
-              className="group rounded-lg my-4 p-6 [&_summary::-webkit-details-marker]:hidden !border !border-[#FF5887]"
+              className="group rounded-lg my-4 p-6 [&_summary::-webkit-details-marker]:hidden rounded-lg !border-2 !border-pink-500 !border-opacity-60"
               open
             >
               <summary className="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900">
@@ -328,7 +330,7 @@ const FaqsDescription = () => {
                 <span className="relative h-5 w-5 shrink-0">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="absolute inset-0 h-5 w-5 opacity-100 group-open:opacity-0"
+                    className="absolute inset-0 h-5 w-5 opacity-100 group-open:opacity-0 text-blue-500"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -343,7 +345,7 @@ const FaqsDescription = () => {
 
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="absolute inset-0 h-5 w-5 opacity-0 group-open:opacity-100"
+                    className="absolute inset-0 h-5 w-5 opacity-0 group-open:opacity-100 text-pink-500"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -374,7 +376,7 @@ const FaqsDescription = () => {
           <h2 className="font-bold text-3xl text-black">Abuse FAQs</h2>
           <div className="divide-y my-10 mt-2 divide-gray-100   bg-white">
             <details
-              className="group rounded-lg p-6 [&_summary::-webkit-details-marker]:hidden !border !border-[#FF5887]"
+              className="group rounded-lg p-6 [&_summary::-webkit-details-marker]:hidden rounded-lg !border-2 !border-pink-500 !border-opacity-60"
               open
             >
               <summary className="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900">
@@ -385,7 +387,7 @@ const FaqsDescription = () => {
                 <span className="relative h-5 w-5 shrink-0">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="absolute inset-0 h-5 w-5 opacity-100 group-open:opacity-0"
+                    className="absolute inset-0 h-5 w-5 opacity-100 group-open:opacity-0 text-blue-500"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -400,7 +402,7 @@ const FaqsDescription = () => {
 
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="absolute inset-0 h-5 w-5 opacity-0 group-open:opacity-100"
+                    className="absolute inset-0 h-5 w-5 opacity-0 group-open:opacity-100 text-pink-500"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -425,7 +427,7 @@ const FaqsDescription = () => {
             </details>
 
             <details
-              className="group rounded-lg my-4 p-6 [&_summary::-webkit-details-marker]:hidden !border !border-[#FF5887]"
+              className="group rounded-lg my-4 p-6 [&_summary::-webkit-details-marker]:hidden rounded-lg !border-2 !border-pink-500 !border-opacity-60"
               open
             >
               <summary className="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900">
@@ -436,7 +438,7 @@ const FaqsDescription = () => {
                 <span className="relative h-5 w-5 shrink-0">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="absolute inset-0 h-5 w-5 opacity-100 group-open:opacity-0"
+                    className="absolute inset-0 h-5 w-5 opacity-100 group-open:opacity-0 text-blue-500"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -451,7 +453,7 @@ const FaqsDescription = () => {
 
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="absolute inset-0 h-5 w-5 opacity-0 group-open:opacity-100"
+                    className="absolute inset-0 h-5 w-5 opacity-0 group-open:opacity-100 text-pink-500"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -476,7 +478,7 @@ const FaqsDescription = () => {
             </details>
 
             <details
-              className="group rounded-lg my-4 p-6 [&_summary::-webkit-details-marker]:hidden !border !border-[#FF5887]"
+              className="group rounded-lg my-4 p-6 [&_summary::-webkit-details-marker]:hidden rounded-lg !border-2 !border-pink-500 !border-opacity-60"
               open
             >
               <summary className="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900">
@@ -487,7 +489,7 @@ const FaqsDescription = () => {
                 <span className="relative h-5 w-5 shrink-0">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="absolute inset-0 h-5 w-5 opacity-100 group-open:opacity-0"
+                    className="absolute inset-0 h-5 w-5 opacity-100 group-open:opacity-0 text-blue-500"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -502,7 +504,7 @@ const FaqsDescription = () => {
 
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="absolute inset-0 h-5 w-5 opacity-0 group-open:opacity-100"
+                    className="absolute inset-0 h-5 w-5 opacity-0 group-open:opacity-100 text-pink-500"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -542,7 +544,7 @@ const FaqsDescription = () => {
                 <span className="relative h-5 w-5 shrink-0">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="absolute inset-0 h-5 w-5 opacity-100 group-open:opacity-0"
+                    className="absolute inset-0 h-5 w-5 opacity-100 group-open:opacity-0 text-blue-500"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -557,7 +559,7 @@ const FaqsDescription = () => {
 
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="absolute inset-0 h-5 w-5 opacity-0 group-open:opacity-100"
+                    className="absolute inset-0 h-5 w-5 opacity-0 group-open:opacity-100 text-pink-500"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -591,7 +593,7 @@ const FaqsDescription = () => {
                 <span className="relative h-5 w-5 shrink-0">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="absolute inset-0 h-5 w-5 opacity-100 group-open:opacity-0"
+                    className="absolute inset-0 h-5 w-5 opacity-100 group-open:opacity-0 text-blue-500"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -606,7 +608,7 @@ const FaqsDescription = () => {
 
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="absolute inset-0 h-5 w-5 opacity-0 group-open:opacity-100"
+                    className="absolute inset-0 h-5 w-5 opacity-0 group-open:opacity-100 text-pink-500"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -642,7 +644,7 @@ const FaqsDescription = () => {
                 <span className="relative h-5 w-5 shrink-0">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="absolute inset-0 h-5 w-5 opacity-100 group-open:opacity-0"
+                    className="absolute inset-0 h-5 w-5 opacity-100 group-open:opacity-0 text-blue-500"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -657,7 +659,7 @@ const FaqsDescription = () => {
 
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="absolute inset-0 h-5 w-5 opacity-0 group-open:opacity-100"
+                    className="absolute inset-0 h-5 w-5 opacity-0 group-open:opacity-100 text-pink-500"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -692,7 +694,7 @@ const FaqsDescription = () => {
                 <span className="relative h-5 w-5 shrink-0">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="absolute inset-0 h-5 w-5 opacity-100 group-open:opacity-0"
+                    className="absolute inset-0 h-5 w-5 opacity-100 group-open:opacity-0 text-blue-500"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -707,7 +709,7 @@ const FaqsDescription = () => {
 
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="absolute inset-0 h-5 w-5 opacity-0 group-open:opacity-100"
+                    className="absolute inset-0 h-5 w-5 opacity-0 group-open:opacity-100 text-pink-500"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -742,7 +744,7 @@ const FaqsDescription = () => {
                 <span className="relative h-5 w-5 shrink-0">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="absolute inset-0 h-5 w-5 opacity-100 group-open:opacity-0"
+                    className="absolute inset-0 h-5 w-5 opacity-100 group-open:opacity-0 text-blue-500"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -757,7 +759,7 @@ const FaqsDescription = () => {
 
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="absolute inset-0 h-5 w-5 opacity-0 group-open:opacity-100"
+                    className="absolute inset-0 h-5 w-5 opacity-0 group-open:opacity-100 text-pink-500"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"

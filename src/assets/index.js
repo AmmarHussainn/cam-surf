@@ -31,7 +31,9 @@ import crownicon from "./Images/crownicon.png"
 import settingicon from "./Images/settingicon.png"
 import smileicon from "./Images/smileicon.png"
 import bluearrowicon from "./Images/bluearrowicon.png"
+import stars from "./Images/3stars.png"
 export {
+     stars,
     bluearrowicon,
     smileicon,
     settingicon,

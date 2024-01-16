@@ -8,6 +8,7 @@ import {
   happyman,
   settingicon,
   smileicon,
+  stars,
 } from "../../assets";
 import SvgIcons from "../../assets/SvgIcons";
 import Navbar from "./Navbar";
@@ -18,8 +19,12 @@ const LeftContentRightImg = () => {
     
     <div className="  px-4   lg:px-0      flex flex-wrap lg:flex-nowrap gap-7 justify-center items-center lg:justify-between  mx-auto  w-full">
       <div className="lg:max-w-[50%] py-10 px-4 blackpage bg-cover w-full flex flex-col gap-6 justify-center text-white ">
-       
-        <img src= {camsurf} alt="" className="w-[120px]" srcset="" />
+       <div className="flex  w-full  md:gap-20">
+
+        <img src= {camsurf} alt="" className="md:w-[300px] w-[150px]"  />
+        <img src= {stars} alt="" className="md:block hidden"  />
+       </div>
+
         <p className=" text-xl md:text-3xl  font-bold font-poppins">
           9,851,548 joined Camsurf
         </p>
@@ -49,13 +54,13 @@ const LeftContentRightImg = () => {
             src={googleplaybtn}
             className="md:w-[50%] h-[50px] w-full"
             alt=""
-            srcset=""
+            
           />
           <img
             src={appleplaybtn}
             className="md:w-[50%] h-[50px] w-full"
             alt=""
-            srcset=""
+            
           />
         </div>
       </div>
@@ -67,19 +72,19 @@ const LeftContentRightImg = () => {
           <div className="flex gap-1 items-center font-semibold text-sm">
             <p>9,851,548 joined Camsurf</p>
             <div className="flex gap-1 items-center">
-              <img src={crownicon} className="w-3 h-3 " alt="" srcset="" />
+              <img src={crownicon} className="w-3 h-3 " alt=""  />
               <p className="underline">Special Offer, Get Plus Today!</p>
             </div>
           </div>
 
           <div className="w-full flex py-3 gap-2">
-            <img src={settingicon} alt="" className="w-[40px]" srcset="" />
+            <img src={settingicon} alt="" className="w-[40px]"  />
             <div className="bg-black flex my-auto py-2 rounded-md w-full">
               <input type="text" name="" className="pl-2 bg-black w-[80%] outline-none border-none text-gray-400  "
               placeholder="Type Your Massege Here and Press Enter"
               id="" />
-            <img src={smileicon} alt="" srcset="" />
-            <img src={bluearrowicon} alt="" srcset="" />
+            <img src={smileicon} alt=""  />
+            <img src={bluearrowicon} alt=""  />
             </div>
           </div>
         </div>
