@@ -28,10 +28,10 @@ const Home = () => {
         />
        
       </div>
-      <div className="bg-[#212121] w-full">
+      <div className="bg-[#212121]  w-full">
         <LeftImgRightContent />
       </div>
-      <div className="bg-[#F9E7EF] ">
+      <div className="bg-[#F9E7EF]  py-10">
         <HomeSubContent
           heading="Click and Cam"
           pinktext="Chat"
